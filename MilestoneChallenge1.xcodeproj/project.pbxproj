@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7788F3A22691A3100009FA7 /* Nunavut.png in Resources */ = {isa = PBXBuildFile; fileRef = C7788F2B22691A3100009FA7 /* Nunavut.png */; };
+		C7788F3B22691A3100009FA7 /* New Brunswick.png in Resources */ = {isa = PBXBuildFile; fileRef = C7788F2C22691A3100009FA7 /* New Brunswick.png */; };
+		C7788F3C22691A3100009FA7 /* Saskatchewan.png in Resources */ = {isa = PBXBuildFile; fileRef = C7788F2D22691A3100009FA7 /* Saskatchewan.png */; };
+		C7788F3D22691A3100009FA7 /* Alberta.png in Resources */ = {isa = PBXBuildFile; fileRef = C7788F2E22691A3100009FA7 /* Alberta.png */; };
+		C7788F3E22691A3100009FA7 /* Quebec.png in Resources */ = {isa = PBXBuildFile; fileRef = C7788F2F22691A3100009FA7 /* Quebec.png */; };
+		C7788F3F22691A3100009FA7 /* Nova Scotia.png in Resources */ = {isa = PBXBuildFile; fileRef = C7788F3022691A3100009FA7 /* Nova Scotia.png */; };
+		C7788F4022691A3100009FA7 /* Ontario.png in Resources */ = {isa = PBXBuildFile; fileRef = C7788F3122691A3100009FA7 /* Ontario.png */; };
+		C7788F4122691A3100009FA7 /* Manitoba.png in Resources */ = {isa = PBXBuildFile; fileRef = C7788F3222691A3100009FA7 /* Manitoba.png */; };
+		C7788F4222691A3100009FA7 /* Canada.png in Resources */ = {isa = PBXBuildFile; fileRef = C7788F3322691A3100009FA7 /* Canada.png */; };
+		C7788F4322691A3100009FA7 /* Yukon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7788F3422691A3100009FA7 /* Yukon.png */; };
+		C7788F4422691A3100009FA7 /* Ceremonial.png in Resources */ = {isa = PBXBuildFile; fileRef = C7788F3522691A3100009FA7 /* Ceremonial.png */; };
+		C7788F4522691A3100009FA7 /* Prince Edward Island.png in Resources */ = {isa = PBXBuildFile; fileRef = C7788F3622691A3100009FA7 /* Prince Edward Island.png */; };
+		C7788F4622691A3100009FA7 /* British Columbia.png in Resources */ = {isa = PBXBuildFile; fileRef = C7788F3722691A3100009FA7 /* British Columbia.png */; };
+		C7788F4722691A3100009FA7 /* Northwest Territories.png in Resources */ = {isa = PBXBuildFile; fileRef = C7788F3822691A3100009FA7 /* Northwest Territories.png */; };
+		C7788F4822691A3100009FA7 /* Newfoundland and Labradour.png in Resources */ = {isa = PBXBuildFile; fileRef = C7788F3922691A3100009FA7 /* Newfoundland and Labradour.png */; };
+		C7788F4A2269311900009FA7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7788F492269311900009FA7 /* DetailViewController.swift */; };
 		C78236F02269066100B7970B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78236EF2269066100B7970B /* AppDelegate.swift */; };
-		C78236F22269066100B7970B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78236F12269066100B7970B /* ViewController.swift */; };
 		C78236F52269066100B7970B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78236F32269066100B7970B /* Main.storyboard */; };
 		C78236F72269066200B7970B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78236F62269066200B7970B /* Assets.xcassets */; };
 		C78236FA2269066200B7970B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78236F82269066200B7970B /* LaunchScreen.storyboard */; };
+		C78237042269096400B7970B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78237032269096400B7970B /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7788F2B22691A3100009FA7 /* Nunavut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nunavut.png; sourceTree = "<group>"; };
+		C7788F2C22691A3100009FA7 /* New Brunswick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "New Brunswick.png"; sourceTree = "<group>"; };
+		C7788F2D22691A3100009FA7 /* Saskatchewan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Saskatchewan.png; sourceTree = "<group>"; };
+		C7788F2E22691A3100009FA7 /* Alberta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alberta.png; sourceTree = "<group>"; };
+		C7788F2F22691A3100009FA7 /* Quebec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quebec.png; sourceTree = "<group>"; };
+		C7788F3022691A3100009FA7 /* Nova Scotia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nova Scotia.png"; sourceTree = "<group>"; };
+		C7788F3122691A3100009FA7 /* Ontario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ontario.png; sourceTree = "<group>"; };
+		C7788F3222691A3100009FA7 /* Manitoba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Manitoba.png; sourceTree = "<group>"; };
+		C7788F3322691A3100009FA7 /* Canada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Canada.png; sourceTree = "<group>"; };
+		C7788F3422691A3100009FA7 /* Yukon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yukon.png; sourceTree = "<group>"; };
+		C7788F3522691A3100009FA7 /* Ceremonial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ceremonial.png; sourceTree = "<group>"; };
+		C7788F3622691A3100009FA7 /* Prince Edward Island.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Prince Edward Island.png"; sourceTree = "<group>"; };
+		C7788F3722691A3100009FA7 /* British Columbia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "British Columbia.png"; sourceTree = "<group>"; };
+		C7788F3822691A3100009FA7 /* Northwest Territories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Northwest Territories.png"; sourceTree = "<group>"; };
+		C7788F3922691A3100009FA7 /* Newfoundland and Labradour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Newfoundland and Labradour.png"; sourceTree = "<group>"; };
+		C7788F492269311900009FA7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C78236EC2269066100B7970B /* MilestoneChallenge1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilestoneChallenge1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78236EF2269066100B7970B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C78236F12269066100B7970B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C78236F42269066100B7970B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C78236F62269066200B7970B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C78236F92269066200B7970B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C78236FB2269066200B7970B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78237032269096400B7970B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +67,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7788F2A22691A3100009FA7 /* Flags */ = {
+			isa = PBXGroup;
+			children = (
+				C7788F2B22691A3100009FA7 /* Nunavut.png */,
+				C7788F2C22691A3100009FA7 /* New Brunswick.png */,
+				C7788F2D22691A3100009FA7 /* Saskatchewan.png */,
+				C7788F2E22691A3100009FA7 /* Alberta.png */,
+				C7788F2F22691A3100009FA7 /* Quebec.png */,
+				C7788F3022691A3100009FA7 /* Nova Scotia.png */,
+				C7788F3122691A3100009FA7 /* Ontario.png */,
+				C7788F3222691A3100009FA7 /* Manitoba.png */,
+				C7788F3322691A3100009FA7 /* Canada.png */,
+				C7788F3422691A3100009FA7 /* Yukon.png */,
+				C7788F3522691A3100009FA7 /* Ceremonial.png */,
+				C7788F3622691A3100009FA7 /* Prince Edward Island.png */,
+				C7788F3722691A3100009FA7 /* British Columbia.png */,
+				C7788F3822691A3100009FA7 /* Northwest Territories.png */,
+				C7788F3922691A3100009FA7 /* Newfoundland and Labradour.png */,
+			);
+			path = Flags;
+			sourceTree = "<group>";
+		};
 		C78236E32269066100B7970B = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +109,13 @@
 			isa = PBXGroup;
 			children = (
 				C78236EF2269066100B7970B /* AppDelegate.swift */,
-				C78236F12269066100B7970B /* ViewController.swift */,
 				C78236F32269066100B7970B /* Main.storyboard */,
+				C78237032269096400B7970B /* TableViewController.swift */,
+				C7788F492269311900009FA7 /* DetailViewController.swift */,
 				C78236F62269066200B7970B /* Assets.xcassets */,
 				C78236F82269066200B7970B /* LaunchScreen.storyboard */,
 				C78236FB2269066200B7970B /* Info.plist */,
+				C7788F2A22691A3100009FA7 /* Flags */,
 			);
 			path = MilestoneChallenge1;
 			sourceTree = "<group>";
@@ -122,9 +178,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7788F3C22691A3100009FA7 /* Saskatchewan.png in Resources */,
+				C7788F4822691A3100009FA7 /* Newfoundland and Labradour.png in Resources */,
 				C78236FA2269066200B7970B /* LaunchScreen.storyboard in Resources */,
+				C7788F3E22691A3100009FA7 /* Quebec.png in Resources */,
+				C7788F3F22691A3100009FA7 /* Nova Scotia.png in Resources */,
+				C7788F4022691A3100009FA7 /* Ontario.png in Resources */,
+				C7788F4322691A3100009FA7 /* Yukon.png in Resources */,
+				C7788F4222691A3100009FA7 /* Canada.png in Resources */,
 				C78236F72269066200B7970B /* Assets.xcassets in Resources */,
+				C7788F4622691A3100009FA7 /* British Columbia.png in Resources */,
 				C78236F52269066100B7970B /* Main.storyboard in Resources */,
+				C7788F4522691A3100009FA7 /* Prince Edward Island.png in Resources */,
+				C7788F3A22691A3100009FA7 /* Nunavut.png in Resources */,
+				C7788F4122691A3100009FA7 /* Manitoba.png in Resources */,
+				C7788F3D22691A3100009FA7 /* Alberta.png in Resources */,
+				C7788F4722691A3100009FA7 /* Northwest Territories.png in Resources */,
+				C7788F4422691A3100009FA7 /* Ceremonial.png in Resources */,
+				C7788F3B22691A3100009FA7 /* New Brunswick.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +206,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C78236F22269066100B7970B /* ViewController.swift in Sources */,
+				C7788F4A2269311900009FA7 /* DetailViewController.swift in Sources */,
 				C78236F02269066100B7970B /* AppDelegate.swift in Sources */,
+				C78237042269096400B7970B /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
