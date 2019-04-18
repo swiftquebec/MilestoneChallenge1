@@ -36,15 +36,14 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Flag", for: indexPath)
         cell.textLabel?.text = mapPictures[indexPath.row]
-        
+        cell.imageView!.image = UIImage(named: mapPictures[indexPath.row])
         return cell
     }
     
-    // What happens when a row is touched
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
             vc.selectedImage = mapPictures[indexPath.row]
-            vc.titleText = "Picture"
+            vc.titleText = "\(mapPictures[indexPath.row])"
             navigationController?.pushViewController(vc, animated: true)
         }
     }
