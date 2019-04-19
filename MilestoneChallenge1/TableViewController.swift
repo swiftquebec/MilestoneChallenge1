@@ -26,7 +26,7 @@ class TableViewController: UITableViewController {
                 mapPictures.append(item)
             }
         }
-        print(mapPictures.count)
+        mapPictures.sort()
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
