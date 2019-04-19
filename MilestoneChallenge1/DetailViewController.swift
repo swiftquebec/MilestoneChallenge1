@@ -26,6 +26,9 @@ class DetailViewController: UIViewController {
             imageView.image = UIImage(named: imageToLoad)
         }
         
+        imageView.layer.borderWidth = 1
+        imageView.layer.borderColor = UIColor.black.cgColor
+        
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
     }
     
